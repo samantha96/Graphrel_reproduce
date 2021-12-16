@@ -2,7 +2,7 @@
 NYT dataset process 
 
    
-'''
+
 This is the python script for pre-process NYT raw dataset.
 Here is a sample of NYT raw dataset:
 {"sentText": "In Queens , North Shore Towers , near the Nassau border , supplanted a golf course , and housing replaced a gravel quarry in Douglaston .",
@@ -24,4 +24,4 @@ dep_fw: the dependencty adjacency matrix (forward edge) of each word-pair ([BS, 
 dep_bw: the dependencty adjacency matrix (backward edge) of each word-pair ([BS, SL, SL])
 ans_ne, ans_rel: the output tag of name entity of each word and relation of each word-pair ([BS, SL] ans [BS, SL, SL])
 wgt_ne, wgt_rel: the loss weight of name entity of each word and relation of each word-pair, 1 for those contains name entity or relation, otherwise 0 ([BS, SL], [BS, SL, SL])
-'''
+
