@@ -1,5 +1,7 @@
 # Graphrel_reproduce
 NYT dataset process 
 
-This is the python script for pre-process NYT raw dataset.
+'nytdata1201' is the python script for pre-process NYT raw dataset.
+![alt text](http://url/to/img.png)
+
 
